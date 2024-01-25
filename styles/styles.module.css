@@ -1,0 +1,82 @@
+.container{
+
+}
+
+.navbar{
+background-color: #343a40;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.navbarBrand{
+color: #ffffff;
+font: 1.5rem;
+text-decoration: none;
+
+}
+
+.navbarNav{
+    list-style: none;
+    display: flex;
+}
+
+.navItem{
+margin-left: 20px;
+}
+
+.navLink{
+color: #ffffff;
+text-decoration: none;
+font-size: 1rem;
+}
+
+.content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer{
+background-color: #56595d;
+padding: 20px 0;
+text-align: center;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+
+.info{
+    padding-top: 20px;
+    margin-bottom: 40px;
+     justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    display: flex;
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    align-items: center;      /* Centra los elementos verticalmente */
+    gap: 20px;                /* Agrega espacio entre los elementos */
+  }
+  
+  .contact a {
+    text-decoration: none;    /* Elimina el subrayado de los enlaces */
+    margin: 0;                /* Elimina el margen predeterminado de los enlaces */
+  }
+
+
+  /* para imagen */
+
+  .roundedImage {
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Agrega un efecto de sombra */
+    transition: transform 0.2s ease-in-out; /* Agrega una transición suave al hacer hover */
+  }
+  
+  .roundedImage:hover {
+    transform: scale(1.1); /* Escala la imagen al hacer hover */
+  }
