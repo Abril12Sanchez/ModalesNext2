@@ -11,7 +11,7 @@ import { useState } from "react";
 import formstyles from "@/styles/formstyles.module.css"
 
 
-const Register=({onClose}: {onClose : () => void })=>{
+const Register=({onClose}:any)=>{
     const[email,setEmail]=useState('micorreo@micorreo.com')
     const[password,setPassword]=useState('')
     const[nombre,setNombre]=useState('')

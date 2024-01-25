@@ -4,7 +4,7 @@ import { useState } from "react";
 import formstyles from "@/styles/formstyles.module.css"
 
 // onclose
-const Login=({onClose}: {onClose : () => void })=>{
+const Login=({onClose}:any)=>{
     const[email,setEmail]=useState('micorreo@micorreo.com')
     const[password,setPassword]=useState('')
     const handleLogin=()=>{
